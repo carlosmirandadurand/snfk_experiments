@@ -42,3 +42,6 @@ create or replace api integration GitHub_Integration
     enabled = true
     comment='Github integration to CMD Account';
 
+CREATE GIT REPOSITORY snfk_experiments 
+	ORIGIN = 'https://github.com/carlosmirandadurand/snfk_experiments' 
+	API_INTEGRATION = 'GITHUB_INTEGRATION';
